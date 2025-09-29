@@ -241,7 +241,7 @@ const App = () => {
               Création de compte vendeur
             </h3>
             <p className="mb-4 font-montserrat" style={{ color: colors.secondary }}>
-              Choisissez votre formule d'abonnement (Basic, Standard ou Premium) et créez votre boutique en quelques minutes.
+              Choisissez votre formule d&apos;abonnement (Basic, Standard ou Premium) et créez votre boutique en quelques minutes.
             </p>
             <ul className="space-y-2 font-montserrat" style={{ color: colors.secondary }}>
               <li className="flex items-center">
@@ -414,7 +414,7 @@ const App = () => {
             <p className="mb-6 font-montserrat" style={{ color: colors.secondary }}>
               Duqah est une plateforme de commerce électronique décentralisée qui ne vend rien elle-même. 
               Nous mettons en relation les petits commerçants, artisans et créateurs indépendants avec des consommateurs 
-              engagés à la recherche d'une alternative éthique et fiable au commerce en ligne traditionnel.
+              engagés à la recherche d&apos;une alternative éthique et fiable au commerce en ligne traditionnel.
             </p>
             <p className="mb-8 font-montserrat" style={{ color: colors.secondary }}>
               Contrairement aux marketplaces traditionnelles, nous ne prenons pas de commission sur vos ventes. 
@@ -584,7 +584,7 @@ const App = () => {
             
             <div className="p-4 rounded-lg" style={{ backgroundColor: colors.lightGray }}>
               <h4 className="font-bold mb-2 font-montserrat" style={{ color: colors.secondary }}>
-                Informations légales (optionnel pour l'instant)
+                Informations légales (optionnel pour l&apos;instant)
               </h4>
               <p className="text-sm font-montserrat" style={{ color: colors.secondary }}>
                 Vous pourrez compléter ces informations dans votre tableau de bord après la création de votre compte.
