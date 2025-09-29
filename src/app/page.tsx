@@ -4,7 +4,15 @@ import React, { useState } from 'react';
 const App = () => {
   const [currentView, setCurrentView] = useState('home');
   const [showSubscriptionModal, setShowSubscriptionModal] = useState(false);
-  const [selectedPlan, setSelectedPlan] = useState(null);
+  type SubscriptionPlan = {
+    id: string;
+    name: string;
+    price: number;
+    period: string;
+    features: string[];
+    popular: boolean;
+  };
+  const [selectedPlan, setSelectedPlan] = useState<SubscriptionPlan | null>(null);
 
   // Subscription plans based on cahier des charges
   const subscriptionPlans = [
