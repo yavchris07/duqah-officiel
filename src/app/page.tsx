@@ -556,7 +556,7 @@ const App = () => {
                   borderColor: colors.primary,
                   color: colors.secondary
                 }}
-                placeholder="+212 ..." 
+                placeholder="+243 ..." 
               />
             </div>
             
